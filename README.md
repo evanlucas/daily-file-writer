@@ -5,6 +5,8 @@
 
 Write data to a log file using the date as the filename. Handles date rollover too!
 
+**Note: Requires Node.js v4+**
+
 ## Install
 
 ```bash
