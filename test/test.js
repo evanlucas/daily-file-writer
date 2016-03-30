@@ -7,6 +7,10 @@ const fixtures = path.join(__dirname, 'fixtures')
 const fs = require('fs')
 
 test('Logger', (t) => {
+  t.throws(() => {
+    new Logger()
+  }, /options must contain a path/)
+
   const l = new Logger({
     path: fixtures
   })

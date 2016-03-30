@@ -6,7 +6,11 @@ const mkdirp = require('mkdirp')
 
 module.exports = class Logger {
   constructor(opts) {
+    opts = Object.assign({}, opts)
     this.base = opts.path
+    if (!this.base) {
+      throw new Error('options must contain a path')
+    }
     this.fp = this.getFilePath()
     this.stream = null
     this._buffer = []
