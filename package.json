@@ -1,0 +1,26 @@
+{
+  "name": "daily-file-writer",
+  "version": "1.0.0",
+  "description": "Write data to a log file using the date as the filename. Handles date rollover too!",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js --cov"
+  },
+  "dependencies": {
+    "mkdirp": "~0.5.1"
+  },
+  "devDependencies": {
+    "lintit": "~1.0.1",
+    "tap": "~5.7.0"
+  },
+  "license": "MIT",
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/daily-file-writer"
+  },
+  "homepage": "https://github.com/evanlucas/daily-file-writer",
+  "bugs": {
+    "url": "https://github.com/evanlucas/daily-file-writer/issues"
+  }
+}
