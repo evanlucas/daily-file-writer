@@ -1,6 +1,6 @@
 {
   "name": "daily-file-writer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Write data to a log file using the date as the filename. Handles date rollover too!",
   "main": "index.js",
   "scripts": {
